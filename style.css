@@ -11,6 +11,14 @@
     display: table;
 }
 
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
 header {
     display: block;
     background-image: url(./img/jumbo.png);
@@ -18,11 +26,6 @@ header {
     background-repeat: no-repeat;
     height: 650px;
     padding: 30px 0px;
-}
-
-nav > div > img {
-    width: 100%;
-    vertical-align: middle;
 }
 
 nav {
@@ -62,11 +65,6 @@ nav > div > ul > li > a {
     text-align: center;
 }
 
-.header-text {
-    width: 50%;
-    margin: 50px auto;
-    text-align: center;
-}
 
 .col-1,
 .col-2,
@@ -82,4 +80,39 @@ nav > div > ul > li > a {
 
 .col-2 {
     width: 80%;
+}
+
+.header-text {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 60px;
+    margin-top: 130px;
+}
+
+.text {
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+#download,
+#open {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 40px;
+    border-radius: 35px;
+    margin: 50px 20px 0px;
+}
+
+#download {
+    background-color: white;
+}
+
+#open {
+    background-color: rgb(51, 51, 51);
 }
